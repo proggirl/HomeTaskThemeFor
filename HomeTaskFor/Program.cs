@@ -1,87 +1,88 @@
 ﻿using System;
 
-namespace HomeTaskFor
+namespace HomeTaskAll
 {
     class Program
     {
         static void Main(string[] args)
         {
-            while (true)
-            {
+            Console.WriteLine("Enter the name for dog: ");
+            string dogName = Console.ReadLine();
+            Console.WriteLine("Enter the breed for dog: ");
+            string dogBreed = Console.ReadLine();
 
-                Console.WriteLine(@"Выбирайте номер решений дз: 
-        1 сумму всех целых чисел от 100 до 500 
-        2 сумму всех целых чисел от a до 500 (значение a вводится с клавиатуры; a < 500);
-        3 сумму всех целых чисел от –10 до b (значение b вводится с клавиатуры; b>–10);
-        4 сумму всех целых чисел от a до b (значения a и b вводятся с клавиатуры; b>a)");
-             
-            string option = Console.ReadLine();
+            Dog firstDog = new Dog(dogName, dogBreed);
+            Dog secondDog = new Dog();
+            for (int i = 1; i <= 3; i++)
+                firstDog.SayGav();
+
+            for (int i= 0; i < 10; i++)
+            {
+                secondDog.SayGav();
+            }
+
+            Console.WriteLine(firstDog.GetName());
+            Console.WriteLine(firstDog.GetBreed());
+
+            Console.WriteLine(secondDog.GetName());
+            Console.WriteLine(secondDog.GetBreed());
+            ///все же правильно  что тут не то ?я перепутала первую с вторым сейчас поняла) )) когда ты удаляла я это понял))
+            ///смотрю ты тут удаляеш вторую а ждеш первую  по этому взял и все вернул))
+            ///даа) все правильно поняла  ? думаю да отлично
+
+
+            Console.Write(Dog.CountGav.ToString());
+            Console.ReadLine();
+
+            //HTask2 task2 = new HTask2();
+            //HTask3 task3 = new HTask3();
+            //HTask4 task4 = new HTask4();
+            //HTask5 task5 = new HTask5();
+            //HTask6 task6 = new HTask6();
+
+            
+            ////HTask2--(тип переменной) task2 --(переменная) = new --(это ключевое слова создаеть обекть от правого вещи там могуть быть все что угодна и классы и примитивы) HTask2() --(тут имя класса конструктор по умолчанию вызываеться );
+       
+
+            //while (true)
+            //{
+
+            //    Console.WriteLine("Выбирайте тему с решениями дз: \n2-Тема 2 \n3-Тема 3 \n4-Тема 4 \n5-Тема 5 \n6-Тема 6" +
+            //        "\n" );
+                
+
+            //    string option = Console.ReadLine();
+
+            //    switch (option)
+            //    {
+            //        case "2":
+            //            task2.Run();
+            //            break;
+            //        case "3":
+            //            task3.start();
+            //            break;
+            //        case "4":
+            //            task4.run();
+            //            break;
+            //        case "5":
+            //            task5.run();
+            //            break;
+            //        case "6":
+            //            task6.run();
+            //            break;
+            //        default:
+            //            return;
+                        
+
+            //    }
+
+
+            //}
+
+            
+
+
            
-                switch (option)
-                {
-                    case "1":
-                        //а) сумму всех целых чисел от 100 до 500;
-                        Task1();
-                        break;
-                    case "2":
-                        //сумму всех целых чисел от a до 500 (значение a вводится с клавиатуры; a < 500);
-                        Task2();
-                        break;
-                    case "3":
-                        //сумму всех целых чисел от –10 до b (значение b вводится с клавиатуры; b>–10);
-                        Task3();
-                        break;
-                    case "4":
-                        //сумму всех целых чисел от a до b (значения a и b вводятся с клавиатуры; b>a)
-                        Task4();
-                        break;
-
-                }
-
-            }
-            static void Task1()
-            {
-                int number = 100;
-                for (int i = 101; i <= 500; i++)
-                    number += i;
-                Console.WriteLine("Сумма всех целых чисел от 100 до 500 равен: " + number);
-            }
-
-            static void Task2()
-            {
-                Console.Write("Введите значение переменной a: ");
-                int a = int.Parse(Console.ReadLine());
-                for (int i = a; i <= 500; i++)
-                    a += i;
-                Console.WriteLine("Сумма всех целых чисел от a до 500 равен: " + a);
-            }
-
-            static void Task3()
-            {
-                Console.Write("Введитезначение переменной b: ");
-                var b = int.Parse(Console.ReadLine());
-                var sum = 0;
-                for (int i = -10; i < b; i++)
-                    sum += i;
-                Console.WriteLine("Сумма всех целых чисел от –10 до b равен: " + sum);
-            }
-
-            static void Task4()
-            {
-                Console.Write("Введите значение переменной а: ");
-                int a = int.Parse(Console.ReadLine());
-                Console.Write("Введите значение переменной b: ");
-                int b = int.Parse(Console.ReadLine());
-                if (a > b) Console.WriteLine("Ошибка! Переменная а > b");
-                else
-                {
-                    int i, sum = 0;
-                    for (i = a; b >= i; i++)
-                        sum += i;
-                    Console.WriteLine("Сумма чисел равна: " + sum);
-                }
-                Console.ReadLine();
-            }
         }
     }
 }

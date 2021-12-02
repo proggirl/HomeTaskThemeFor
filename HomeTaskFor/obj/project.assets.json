@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\C#\\HometaskFor\\HomeTaskFor\\HomeTaskFor.csproj",
-      "projectName": "HomeTaskFor",
-      "projectPath": "H:\\C#\\HometaskFor\\HomeTaskFor\\HomeTaskFor.csproj",
+      "projectUniqueName": "H:\\C#\\HometaskFor\\HomeTaskFor\\HomeTaskAll.csproj",
+      "projectName": "HomeTaskAll",
+      "projectPath": "H:\\C#\\HometaskFor\\HomeTaskFor\\HomeTaskAll.csproj",
       "packagesPath": "C:\\Users\\Малика Шарифова\\.nuget\\packages\\",
       "outputPath": "H:\\C#\\HometaskFor\\HomeTaskFor\\obj\\",
       "projectStyle": "PackageReference",

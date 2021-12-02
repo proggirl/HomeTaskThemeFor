@@ -1,0 +1,16 @@
+H:\C#\HometaskFor\HomeTaskFor\bin\Debug\net5.0\HomeTaskAll.exe
+H:\C#\HometaskFor\HomeTaskFor\bin\Debug\net5.0\HomeTaskAll.deps.json
+H:\C#\HometaskFor\HomeTaskFor\bin\Debug\net5.0\HomeTaskAll.runtimeconfig.json
+H:\C#\HometaskFor\HomeTaskFor\bin\Debug\net5.0\HomeTaskAll.runtimeconfig.dev.json
+H:\C#\HometaskFor\HomeTaskFor\bin\Debug\net5.0\HomeTaskAll.dll
+H:\C#\HometaskFor\HomeTaskFor\bin\Debug\net5.0\ref\HomeTaskAll.dll
+H:\C#\HometaskFor\HomeTaskFor\bin\Debug\net5.0\HomeTaskAll.pdb
+H:\C#\HometaskFor\HomeTaskFor\obj\Debug\net5.0\HomeTaskAll.csproj.AssemblyReference.cache
+H:\C#\HometaskFor\HomeTaskFor\obj\Debug\net5.0\HomeTaskAll.GeneratedMSBuildEditorConfig.editorconfig
+H:\C#\HometaskFor\HomeTaskFor\obj\Debug\net5.0\HomeTaskAll.AssemblyInfoInputs.cache
+H:\C#\HometaskFor\HomeTaskFor\obj\Debug\net5.0\HomeTaskAll.AssemblyInfo.cs
+H:\C#\HometaskFor\HomeTaskFor\obj\Debug\net5.0\HomeTaskAll.csproj.CoreCompileInputs.cache
+H:\C#\HometaskFor\HomeTaskFor\obj\Debug\net5.0\HomeTaskAll.dll
+H:\C#\HometaskFor\HomeTaskFor\obj\Debug\net5.0\ref\HomeTaskAll.dll
+H:\C#\HometaskFor\HomeTaskFor\obj\Debug\net5.0\HomeTaskAll.pdb
+H:\C#\HometaskFor\HomeTaskFor\obj\Debug\net5.0\HomeTaskAll.genruntimeconfig.cache
